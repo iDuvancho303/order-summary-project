@@ -1,11 +1,15 @@
 :root {
     box-sizing: border-box;
+    /*COLORS*/
     --pale-blue: hsl(225, 100%, 94%)
     --bright-blue: hsl(245, 75%, 52%)
     --very-pale-blue: hsl(225, 100%, 98%)
     --desaturated-blue: hsl(224, 23%, 55%)
     --dark-blue: hsl(223, 47%, 23%)
-}
+    /*TEXT*/
+    --font-weight-regular: 500;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
 
 *{
     font-family: 'Red Hat Display', sans-serif;
