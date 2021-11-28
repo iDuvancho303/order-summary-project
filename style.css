@@ -30,8 +30,18 @@ body {
      border-radius: 2rem;
      overflow: hidden;
      width: 90%;
-     min-width: 32.7rem;
-
-
+     max-width: 32.7rem;
+     transition: max-width 250ms;
  }
 
+
+
+
+ /*MEDIA QUERY*/
+
+ @media screen and (min-width: 768px) {
+     .order-summary {
+         min-width: 45rem;
+
+     }
+ }
