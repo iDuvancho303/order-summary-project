@@ -42,6 +42,18 @@ body {
  @media screen and (min-width: 768px) {
      .order-summary {
          min-width: 45rem;
+     }
 
+     .img-container, .img-container img {
+         width: 100%;
+     }
+
+     .text-section {
+         padding: 3.2rem 2.4rem;
+         display: flex;
+         flex-flow:  column nowrap;
+         align-items: center;
+         justify-content: start;
+         gap: 1.6rem;
      }
  }
