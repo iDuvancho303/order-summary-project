@@ -18,5 +18,20 @@
 
 body {
     background-color: #222;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    text-align: center;
+    padding: 2rem; 
 }
+
+ .order-summary {
+     background-color: white;
+     border-radius: 2rem;
+     overflow: hidden;
+     width: 90%;
+     min-width: 32.7rem;
+
+
+ }
 
