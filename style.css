@@ -9,8 +9,14 @@
     /*TEXT*/
     --font-weight-regular: 500;
     --font-weight-bold: 700;
-    --font-weight-black: 900;
+    --font-weight-black: 900; 
+}
 
 *{
     font-family: 'Red Hat Display', sans-serif;
 }
+
+body {
+    background-color: #222;
+}
+
